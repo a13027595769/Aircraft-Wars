@@ -10,12 +10,12 @@ class Alien(Sprite):
         #加载外星人图片，并加载其rect属性
         self.image = pygame.image.load("images/alien.png")
         self.rect = self.image.get_rect()
-
+         
         self.rect.x = self.rect.width
         self.rect.y = self.rect.height
         self.x = float(self.rect.x)
     def blitme(self):
-        """在指定位置绘制外星人"""
+        """hehe在指定位置绘制外星人"""
         self.screen.blit(self.image,self.rect)
     def update(self):
         """向右移动外星人"""
