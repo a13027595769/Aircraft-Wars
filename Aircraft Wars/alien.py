@@ -15,7 +15,7 @@ class Alien(Sprite):
         self.rect.y = self.rect.height
         self.x = float(self.rect.x)
     def blitme(self):
-        """hehe在指定位置绘制外星人"""
+        """在指定位置绘制外星人"""
         self.screen.blit(self.image,self.rect)
     def update(self):
         """向右移动外星人"""
